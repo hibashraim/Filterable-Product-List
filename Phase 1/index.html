@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRONICS</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="icon" href="assets/imgs/logo1.jpg" type="image/png" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>ELECTRONICS</h1>
+            <h2 id="category">OUR PRODUCT LISTS</h2>
+        </nav>
+    </header>
+    <main>
+        <section id="filter-btns">
+            <div class="container">
+                <button onclick="filterProd('all')" class="active">ALL</button>
+                <button onclick="filterProd('Smartwatch')">Smart watch</button>
+                <button onclick="filterProd('BluetoothSpeaker')">Bluetooth Speaker</button>
+                <button onclick="filterProd('WirelessEarbuds')">Wireless Earbuds</button>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container" id="prod-container">
+            </div>
+        </section>
+    </main>
+<footer>
+    <div class="footer-content">
+        <div class="footer-info">
+            <span>&copy; 2024 Hiba Shraim.</span>
+                         </div>
+       
+    </div>
+</footer>
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
